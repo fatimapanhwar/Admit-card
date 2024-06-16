@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Add custom styles for the main container */
+    body {
+      background: rgb(2, 2, 33);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-info img {
+      width: 200px;
+      height: 200px;
+      border: 5px solid #fff; /* Add a white border */
+      border-radius: 50%; /* Make it round */
+      object-fit: cover; /* Maintain aspect ratio and cover the square */
+    }
+
+    .profile-info h2 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .profile-info p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    /* Add custom styles for social icons */
+    .social-links {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .social-links a:hover {
+      color: #0077b5;
+    }
+
+    /* Add responsiveness for smaller screens */
+    @media screen and (max-width: 768px) {
+      .profile-info img {
+        max-width: 80px;
+      }
+
+      .profile-info h2 {
+        font-size: 20px;
+      }
+
+      .profile-info p {
+        font-size: 16px;
+      }
+
+      .social-links {
+        margin-top: 10px;
+      }
+
+      .social-links a {
+        font-size: 20px;
+      }
+    }
+  </style>
+  <title>Profile Card</title>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-info">
+      <img src="400575534_365437309351371_3909369005310439084_n.jpg" alt="Profile Picture">
+      <h2>Fatima Panhwar</h2>
+      <p>Web Developer</p>
+    </div>
+    <div class="social-links">
+      <a href="https://www.instagram.com/fatima__panhwar/"><i class="fa fa-instagram"></i></a>
+      <a href="https://x.com/fatimaapanhwar"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/fatima-panhwar-950636290/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/fatimapanhwar"><i class="fa fa-github"></i></a>
+    </div>
+  </div>
+</body>
+</html>
